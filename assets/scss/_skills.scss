@@ -1,0 +1,42 @@
+/* skill section rules */
+
+.skills{
+	h2{
+		text-align: center;
+		margin-top: 50px;
+		font-weight: 300;
+		font-size: 2.5rem;
+	}
+
+	p{
+		text-align: center;
+		color: $gray;
+	}
+
+	.skills-container{
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.skill-block{
+		min-width: calc(20% - 20px);
+		margin: 25px 10px;
+		text-align: center;
+		transition: all 0.5s ease;
+
+		i{
+			font-size: 3rem;
+			margin-top: 20px;
+		}
+
+		h3{
+			font-weight: 400;
+		}
+
+		&:hover{
+			background-color: $light-purple;
+			color: $blue;
+			transform: scale(1.5);
+		}
+	}
+}

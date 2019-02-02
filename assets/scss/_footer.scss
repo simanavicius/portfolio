@@ -1,0 +1,29 @@
+/* footer rules */
+
+footer{
+	padding: 50px 0;
+
+	i{
+		font-size: 2rem;
+		margin: 10px;
+		color: $blue;
+	}
+
+	span{
+		font-size: 1.5rem;
+		font-weight: 300;
+		text-align: center;
+		display: block;
+		padding-bottom: 30px;
+	}
+
+	li{
+		text-align: center;
+		padding-bottom: 5px;
+	}
+
+	.flex-container{
+		justify-content: space-evenly;
+	}
+}
+

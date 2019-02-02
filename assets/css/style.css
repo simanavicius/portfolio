@@ -1,0 +1,253 @@
+/* default parametru resetas */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* general rules */
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+ul {
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* HEADER RULES */
+header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header li {
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+header li a {
+  color: #000;
+  -webkit-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+header li a:hover {
+  color: #77A1FE;
+}
+
+.menu {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.logo i {
+  font-size: 3rem;
+}
+
+/* hero rules */
+.hero {
+  background-color: #E9E9FF;
+}
+
+.hero .hero-info {
+  width: 50%;
+  padding: 20% 50px 0 150px;
+}
+
+.hero .hero-img {
+  width: 50%;
+}
+
+.hero .hero-img img {
+  width: 100%;
+  display: block;
+}
+
+.hero span, .hero h1 {
+  display: block;
+}
+
+.hero span:first-child {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.hero span:last-of-type {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.hero p {
+  color: #888;
+  font-weight: 300;
+}
+
+/* skill section rules */
+.skills h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+
+.skills p {
+  text-align: center;
+  color: #888;
+}
+
+.skills .skills-container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.skills .skill-block {
+  min-width: calc(20% - 20px);
+  margin: 25px 10px;
+  text-align: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.skills .skill-block i {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.skills .skill-block h3 {
+  font-weight: 400;
+}
+
+.skills .skill-block:hover {
+  background-color: #E9E9FF;
+  color: #77A1FE;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+/* contacts rules */
+.contacts {
+  background-color: #E9E9FF;
+  padding-bottom: 50px;
+}
+
+.contacts h2 {
+  padding-top: 50px;
+  font-weight: 300;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.contacts i {
+  font-size: 4rem;
+  color: #000;
+}
+
+.contacts a {
+  color: #000;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.contacts a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #77A1FE;
+}
+
+.contacts .info {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.contacts .info-block {
+  min-width: calc(50% - 20px);
+  margin: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+#map {
+  height: 500px;
+  width: 50%;
+}
+
+/* footer rules */
+footer {
+  padding: 50px 0;
+}
+
+footer i {
+  font-size: 2rem;
+  margin: 10px;
+  color: #77A1FE;
+}
+
+footer span {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: center;
+  display: block;
+  padding-bottom: 30px;
+}
+
+footer li {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+footer .flex-container {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}

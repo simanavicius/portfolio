@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,900&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<header class="container flex-container">
+		<div class="logo">
+			<!-- While I dont have logo, icon will do -->
+			<a href="index.html">
+				<img src="assets/img/logo3.png">
+			</a>
+		</div>
+		<div class="menu flex-container">
+			<ul class="flex-container">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">About me</a></li>
+				<li><a href="#skills">My Skills</a></li>
+				<li><a href="#contacts">Contacts</a></li>		
+			</ul>
+		</div>
+	</header>
+	<section class="hero">
+		<div class="container flex-container">
+			<div class="hero-info">
+				<span>This is me:</span>
+				<span>Edgaras Simanavičius</span>
+				<h1>Junior Web Developer</h1>
+				<p>It's facinating how right after discovering programming I felt passion for it. After couple of online courses and WEB Development course in Vilnius Coding School I have strong basic's how WEB Development works. I am looking forward improving my knowledge further in professional environment!</p>
+			</div>
+			<div class="hero-img">
+				<img src="assets/img/me2.png">
+			</div>
+		</div>
+	</section>
+	<section class="skills" id="skills">
+		<div class="container">
+			<h2>Skills</h2>
+			<p>Those are skills I have learned so far, and I am willing to learn any technologies needed to continue improving my WEB Development skills!</p>
+			<div class="skills-container flex-container">
+				<div class="skill-block">
+					<i class="fab fa-html5"></i>
+					<h3>HTML5</h3>
+				</div>
+				<div class="skill-block">
+					<i class="fab fa-css3-alt"></i>
+					<h3>CSS3</h3>
+				</div>
+				<div class="skill-block">
+					<i class="fab fa-sass"></i>
+					<h3>Sass</h3>
+				</div>
+				<div class="skill-block">
+					<i class="fab fa-js-square"></i>
+					<h3>JavaScript</h3>
+				</div>
+				<div class="skill-block">
+					<i class="fab fa-php"></i>
+					<h3>PHP</h3>
+				</div>
+				<div class="skill-block">
+					<i class="fab fa-wpressr"></i>
+					<h3>WordPress</h3>
+				</div>
+				<div class="skill-block">
+					<i class="fab fa-git"></i>
+					<h3>Git</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contacts" id="contacts">
+		<h2>Contact me!</h2>
+		<div class="container flex-container">
+			<div class="info flex-container">
+				<div class="info-block flex-container">
+					<i class="fas fa-mobile-alt"></i>
+					<a href="tel:+37060699376">+370 606 99376</a>
+				</div>
+				<div class="info-block flex-container">
+					<i class="far fa-envelope"></i>
+					<a href="mailto:simanavicius.edgaras94@gmail.com">simanavicius.edgaras94@gmail.com</a>
+				</div>
+				<div class="info-block flex-container">
+					<i class="fas fa-city"></i>
+					<a>Vilnius, Lithuania</a>
+				</div>
+				<div class="info-block flex-container">
+					<a href="assets/cv_en.pdf"><i class="fas fa-download"></i></a>
+					<a href="assets/cv_en.pdf">Download resume</a>
+				</div>
+			</div>
+			<div id="map"></div>
+		</div>
+	</section>
+	<footer>
+		<div class="flex-container">
+			<div class="social-nav">
+				<span>Follow me!</span>
+				<div>
+					<a href="https://www.linkedin.com/in/simanaviciusedgaras94/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+					<a href="https://www.facebook.com/simanavicius.edgaras94" target="_blank"><i class="fab fa-facebook"></i></a>
+					<a href="https://www.instagram.com/edgaras.simanavicius/" target="_blank"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="technologies-used">
+				<span>How it's made?</span>
+				<ul>
+					<li>I have decided to make my portfolio using Sass, jQuery.</li>
+					<li>The content here is administrated through Wordpress CMS.</li>
+					<li>Webpage is not finished yet, and I am still working on it.</li>
+					<li>For now, the page is laptop-only, but the responsive design is coming soon.</li>
+				</ul>
+			</div>
+			<div class="footer-contacts">
+				<span>Contact me!</span>
+				<ul>
+					<li><a href="tel:+37060699376">+370 606 99376</a></li>
+					<li><a href="mailto:simanavicius.edgaras94@gmail.com">simanavicius.edgaras94@gmail.com</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+<script src="assets/scripts/jquery-3.3.1.min"></script>
+<script src="assets/scripts/custom.js"></script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBU4MiU5j3-HadEVFcsQomeKfDQJPbhzw&callback=initMap">
+</script>
+</body>
+</html>
